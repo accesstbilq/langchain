@@ -89,19 +89,37 @@
         word-break: break-all;
         padding: 5px 20px;
         margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;           /* Keep normal order */
+        justify-content: flex-end;
       } 
       .userchat {
           width: 100%;
           font-size: small;
           color: #de0a0a;
           font-weight: 500;
+          margin: 6px 0;
+          padding: 10px;
+          border-radius: 10px;
+          max-width: 80%;
+          word-break: break-word;
+          background-color: #d4f8c6;
+          align-self: flex-end;
       }
       .agentchat {
           width: 100%;
           font-size: small;
           color: #3F51B5;
           font-weight: 500;
-      }   
+          margin: 6px 0;
+          padding: 10px;
+          border-radius: 10px;
+          max-width: 80%;
+          word-break: break-word;
+          background-color: #e3e7f1;          
+          align-self: flex-start;
+      }
+
       .bot-message{
           width: 100%;
           margin: 5px 0px;
